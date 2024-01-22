@@ -6,6 +6,8 @@ import Planning1 from './components/Planning1';
 import Navigation from './components/Navigation'; 
 import Planning2 from './components/Planning2';
 import Planning3 from './components/Planning3';
+import Planning5 from './components/Planning5';
+
 
 
 
@@ -27,9 +29,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/planning2" element={<Planning2 />} />
         <Route path="/planning3" element={<Planning3 />} />
-
-
-
+        <Route path="/planning5" element={<Planning5 />} />
       </Routes>
     </Router>
   );
