@@ -1,4 +1,5 @@
-// src/components/Navigation.jsx (example)
+
+// src/components/Navigation.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -11,6 +12,9 @@ function Navigation() {
         </li>
         <li>
           <Link to="/plan-created">Plan Created</Link>
+        </li>
+        <li>
+          <Link to="/planning1">Planning 1</Link> {/* New link */}
         </li>
       </ul>
     </nav>

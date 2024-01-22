@@ -1,15 +1,6 @@
+// src/pages/PlanCreatedPage.jsx
 import React from 'react';
-import {
-  Typography,
-  Container,
-  CircularProgress,
-  AppBar,
-  Toolbar,
-  IconButton,
-  Avatar,
-  Grid,
-  Paper,
-} from '@mui/material';
+import { Container, CircularProgress, AppBar, Toolbar, IconButton, Avatar, Grid, Paper, Typography } from '@mui/material';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import MenuIcon from '@mui/icons-material/Menu';
 
@@ -87,4 +78,3 @@ const PlanCreatedPage = () => {
 };
 
 export default PlanCreatedPage;
-
